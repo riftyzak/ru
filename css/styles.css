@@ -40,7 +40,7 @@ body::before {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    filter: blur(8px);
+    filter: blur(2.5px);
     z-index: -1;
 }
     
@@ -107,7 +107,7 @@ canvas {
     justify-content: center;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
     position: relative;
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(8px);
     background-color: rgba(34, 34, 34, 0.0);
     outline: 1px solid #8f8f8f;
     visibility: hidden;

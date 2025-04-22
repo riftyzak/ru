@@ -26,8 +26,6 @@ function copyDiscordUsername() {
 document.getElementById('discord-icon-container').addEventListener('click', copyDiscordUsername);
 
 window.onload = function () {
-    setInterval(changeTitle, 500);
-
     const overlay = document.getElementById('overlay');
     overlay.addEventListener('click', function() {
         overlay.style.opacity = '0'; 

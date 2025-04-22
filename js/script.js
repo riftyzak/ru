@@ -1,21 +1,3 @@
-let titles = [
-    "ri", "rif", "rift", "rifty", "riftyz", "riftyza", "riftyzak", "riftyzak.",
-    "riftyzak.r", "riftyzak.ru", "riftyzak.ru", "riftyzak.ru", "riftyzak.ru", "riftyzak.ru",
-    "riftyzak.r", "riftyzak.", "riftyzak", "riftyza", "riftyz", "rifty", "rift", "rif", "ri", "r", "\u200B", "\u200B"
-];
-let index = 0;
-let maxIndex = titles.length - 1;
-
-// clantag
-function changeTitle() {
-    document.title = titles[index]; 
-    index++;
-
-    if (index > maxIndex) {
-        index = 0; 
-    }
-}
-
 // discord
 function copyDiscordUsername() {
     const discordUsernameElement = document.getElementById('discord-username');  
@@ -57,7 +39,7 @@ window.onload = function () {
             // muzicka
             const backgroundMusic = document.getElementById('background-music');
             backgroundMusic.play(); 
-            backgroundMusic.volume = 0.2;
+            backgroundMusic.volume = 0.13;
         }, 300);
 
         // trail
